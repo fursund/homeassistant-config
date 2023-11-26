@@ -11,7 +11,7 @@
 # | Left     | Change saturation   |
 
 blueprint:
-  source_url: https://github.com/niro1987/homeassistant-config/blob/main/blueprints/automation/niro1987/zha_ikea_tradfri_5button_remote_color.yaml
+  source_url: https://github.com/fursund/homeassistant-config/blob/main/blueprints/automation/fursund/zha_ikea_tradfri_5button_remote_color.yaml
 
   name: ZHA - IKEA TRADFRI - 5 Button Remote - Color Lights
 
@@ -31,7 +31,7 @@ blueprint:
           filter:
             - integration: zha
               manufacturer: IKEA of Sweden
-              model: TRADFRI remote control
+              model: Remote Control N2
     light:
       name: Light
       description: Select the light entity you wish to control.
